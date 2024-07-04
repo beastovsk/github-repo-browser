@@ -1,0 +1,65 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .repo-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .repo-item {
+    margin-bottom: 10px;
+  }
+  
+  .skeleton {
+    background: #e0e0e0;
+  }
+  
+  .skeleton-title,
+  .skeleton-details {
+    height: 20px;
+    margin-bottom: 10px;
+    background: #ccc;
+  }
+  
+  .error-container {
+    text-align: center;
+  }
+  
+  .error-image {
+    max-width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .error-message {
+    color: red;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .page-button {
+    margin: 0 5px;
+    padding: 5px 10px;
+  }
+  
+  .page-button.active {
+    font-weight: bold;
+  }
+  
